@@ -21,3 +21,8 @@ return: XX
 Test: If string length is 3, return roman numeral for hundreds place.
 Code: roman(300);
 Return: CCC
+
+Test: It will run all 4 functions and combine the results into a string.
+Code: roman(3999)
+Return: MMMCMXCIX
+
