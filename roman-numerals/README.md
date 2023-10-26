@@ -26,3 +26,10 @@ Test: It will run all 4 functions and combine the results into a string.
 Code: roman(3999)
 Return: MMMCMXCIX
 
+Test: It will return an empty string if the input is not a number.
+Code: roman("hello")
+Return: ""
+
+Test: It will return "Romans couldn't count that high" if the input is 4000 or greater.
+Code: roman(4999)
+Return: "Romans couldn't count that high"
