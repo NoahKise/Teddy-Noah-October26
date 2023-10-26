@@ -1,3 +1,19 @@
-Test: 
-Code:
-Result
+Test: Recognize if input is 4000 or greater and return null if so. 
+Code: roman(4000)
+Result: null
+
+Test: It will recognize the length of the string.
+Code: roman(400)
+result: 3
+
+Test: If string length is 1, return correct roman numeral.
+Code roman(2)
+result: II
+
+Test: It will transform input to an array of numbers.
+Code roman("267")
+Result: [2, 6, 7]
+
+Test: If string lenght is 2, return roman numeral.
+Code: roman(20)
+return: XX
