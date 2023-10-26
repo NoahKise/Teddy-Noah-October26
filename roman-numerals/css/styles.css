@@ -1,0 +1,13 @@
+body {
+    background-image: url("../img/Rome.jpeg");
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+}
+
+h1 {
+    font-size: 70px;
+}
+form {
+    text-align: center;
+}
