@@ -88,25 +88,12 @@ function roman(input) {
 
 //UI logic
 
-// function hideResults() {
-//     document.getElementById("result").setAttribute("class", "hidden");
-// }
-
 function formHandler(event) {
     event.preventDefault();
-    // document.getElementById("result").setAttribute("class", "hidden");
+    document.querySelector("h1#result").innerText = ""
     const result = document.querySelector("h1#result")
     const userInput = document.querySelector("input#number").value;
-
-    // document.getElementById("result").removeAttribute("class", "hidden");
     document.querySelector("h1#result").append(roman(userInput));
-    // console.log(document.querySelector("h1#result").innerText);
-
-    // const h1 = document.creatElement("h1");
-    // h1.append(roman(userInput))
-    // document.body.append(h1);
-    // result.innerText((roman(userInput)))
-
 }
 
 window.addEventListener("load", function () {

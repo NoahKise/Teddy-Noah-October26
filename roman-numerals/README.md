@@ -33,3 +33,7 @@ Return: ""
 Test: It will return "Romans couldn't count that high" if the input is 4000 or greater.
 Code: roman(4999)
 Return: "Romans couldn't count that high"
+
+Test: It will remove previous results upon resubmission.
+Code: submit
+Return: Only new result.
