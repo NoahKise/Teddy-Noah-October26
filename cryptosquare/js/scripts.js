@@ -17,14 +17,18 @@ function crypto(input) {
         splitString.push((joinedString.slice(i, i + roundedRoot)));
         // splitArray.push(splitString);
     }
-    firstGroup = []
+    // firstGroup = []
     for (let i = 0; i < roundedRoot + 1; i += 1) {
         lastArray.push(splitString[i]);
-        for (let i = 0; i < roundedRoot; i += 1) {
-            firstGroup.push(splitString[i][5])
-        }
+        // for (let i = 0; i < roundedRoot; i += 1) {
+        //     firstGroup.push(splitString[i][0])
+        // }
         // console.log(firstGroup)
     }
+    lastString = lastArray.join("");
+    console.log(lastString);
+    for (let i = 0; i < roundedRoot + 1; i += 1)
+        lastString[i] + lastString[i + roundedRoot]
     // for (let i = 0; i < roundedRoot; i += 1) {
     //     firstGroup.push(splitString[i][i - i])
     // }
