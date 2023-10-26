@@ -18,13 +18,12 @@ function crypto(input) {
         // splitArray.push(splitString);
     }
     firstGroup = []
-    for (let i = 0; i < roundedRoot; i += 1) {
+    for (let i = 0; i < roundedRoot + 1; i += 1) {
         lastArray.push(splitString[i]);
-        console.log(lastArray);
         for (let i = 0; i < roundedRoot; i += 1) {
-            firstGroup.push(splitString[i][i - i])
+            firstGroup.push(splitString[i][5])
         }
-        console.log(firstGroup)
+        // console.log(firstGroup)
     }
     // for (let i = 0; i < roundedRoot; i += 1) {
     //     firstGroup.push(splitString[i][i - i])
